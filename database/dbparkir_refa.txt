@@ -1,0 +1,34 @@
+CREATE DATABASE dbparkir_refa
+
+
+CREATE TABLE kendaraan (
+	plat_no varchar(30) PRIMARY KEY,
+	id_tempat int(50),
+	waktu_masuk datetime,
+	jenis_kendaraan varchar(50),
+	merk_kendaraan varchar(30)
+)
+
+
+CREATE TABLE tempat_parkir(
+	id_tempat int PRIMARY KEY,
+	lokasi varchar(30),
+	harga_parkir int(20)
+	)
+
+
+INSERT INTO tempat_parkir VALUES
+(111,'pjsr','2000')
+(222,'homar','5000'),
+(333,'bjb','1000'),
+(444,'bjb lebet sakedik','3000'),
+(555,'bk','4000')
+
+
+
+INSERT INTO kendaraan VALUES
+('D 7676 asks',111,'2025-01-23 21:12:49','motor','miokuning'),
+('D 2364 fsdj',222,'2025-04-23 03:43:29','motor','beatmerah'),
+('D 0894 rsld',333,'2025-06-23 07:45:50','motor','xrideapip'),
+('D 1239 sdkl',444,'2025-07-23 12:36:12','mobil','kijang'),
+('D 9238 dfgs',555,'2025-09-23 08:59:58','motor','beatputih')
