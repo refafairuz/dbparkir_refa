@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <h1>Data parkir</h1>
     <a href="tambah.php">Tambah parkir baru</a>
     <table border="1">
         <tr>

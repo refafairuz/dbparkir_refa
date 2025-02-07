@@ -6,6 +6,7 @@
     <title>tambah parkir</title>
 </head>
 <body>
+    <div>
     <h1>tambah parkir</h1>
     <form action="simpan.php" method="POST">
         <label for="">ID Tempat</label>
@@ -19,5 +20,7 @@
         <br>
         <button type="submit">simpan</button>
     </form>
+    </div>
+    
 </body>
 </html>
